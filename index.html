@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermercado Super3S</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Supermercado Super3S</h1>
+    <form id="formVenda">
+        <h2>Registrar Venda</h2>
+        <input type="number" id="id_cliente" placeholder="ID do Cliente" required>
+        <input type="text" id="forma_pagamento" placeholder="Forma de Pagamento" required>
+        <div id="produtos">
+            <h3>Produtos</h3>
+            <input type="number" class="produto-id" placeholder="ID do Produto" required>
+            <input type="number" class="quantidade" placeholder="Quantidade" required>
+            <input type="number" class="preco" placeholder="Preço" required>
+        </div>
+        <button type="submit">Registrar Venda</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
